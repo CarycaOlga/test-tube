@@ -1,0 +1,28 @@
+/* Variables */
+$color-main: black;
+$color-second: black;
+$color-third: white;
+
+$font-text: 'Dancing Script', cursive;
+$font-header: 'Sriracha', cursive;
+
+$transition: all 1s;
+
+/* Global */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+section {
+    padding: 96px 0;
+}
+.navigation ul{
+    list-style-type: none;
+}
+.navigation {
+    background: $color-third;
+    padding: 12px 0;
